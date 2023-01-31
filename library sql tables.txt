@@ -1,0 +1,5 @@
+create database library;
+use library;
+create table books(id int,title char(60),author char(50),pages int,price int, status char(10),publisher char(60),edition char(15));
+create table members(id int,name char(30),class char(15),address char(100),phone char(15),email char(60));
+create table transactions(tid int,b_id int,m_id int, doi date, dor date,fine float(5,2));
